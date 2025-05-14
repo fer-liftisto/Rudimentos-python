@@ -1,2 +1,44 @@
 Git y GitHub desde CERO. Crear repositorio con ramas y sincronizar Git local con mi GitHub - PARTE 2
-e/rkA8ie0_hmk?si=1sz_30MQSlA3iCcO
+https://youtu.be/rkA8ie0_hmk?si=SYBqpsG9TPlHPhvO
+
+Git | Introducción #1
+https://youtu.be/sRd6ChQl9uo?si=wsC14yWa7avWBmB9
+
+Para camviar el nopmbre de la rama <master>  a <main>
+$ git branch -M main
+
+Para enlazar git con githut
+$ git remote add origin <ruta de githut>
+
+Para subir a githut la rama main y se ejecuta este comando solo la primera vez
+$ git push -u origin main
+
+kipul@DESKTOP-6HEKL72 MINGW64 /d/lenguajePYTHON/fundamental/rudimentos (main)
+$ echo "# para tener ejemplos de metodos de python. Fernando " > README.md
+$ git add README.md -> o git add -all o git add -A o git add *.txt
+A README.md -> agregado 
+
+$ git commit -m "añadido README" -> realizado el commit
+$ git push -> sube a githut
+
+Comando para ver contenido de los archivos
+$ cat estoy.txt
+
+Para metodo abreviado
+$ git status -s
+ M curso.txt -> archivo modificado
+?? estoy.txt -> no tiene seguimiento o U
+
+$ git log -> Para ver los commit
+$ git log --oneline -> en forma abreviada
+
+$ git diff curso.txt -> muestra las diferencias de la modificacion con el ultimo commit
+
+$ ls -a -> muestra todos los archivos
+
+Para crear carrpetas
+$ mkdir .gitignore
+Para eliminar carpetas
+$ rm -rf .gitignore
+
+
